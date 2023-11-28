@@ -1,0 +1,120 @@
+.foot_er {
+background-color: #06060e;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+	z-index: 99999;
+	opacity: 0.85;
+}
+.foot_err {
+background-color: #4c4c4c;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+	z-index: 99999;
+	opacity: 0.85;
+}
+.foot_erblok1 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 24px;
+	width: 15%;
+}
+.foot_erblok2 {
+    color: #FFFF00;
+    float: left;
+    margin-top: 24px;
+    margin-left: 40px;
+    font-weight: 600;
+    width: 64%;
+}
+.grow_skew_forward1 {
+    font-size: 1.5em;
+    background: #06060e;
+    color: #FFFF00;
+    border: 0.15rem solid #ecb320;
+    padding: 0.1em 0.3em;
+    position: relative;
+    z-index: 999;
+    overflow: hidden;
+    border-radius: 7px;
+    text-decoration: none;
+    
+}
+.grow_skew_forward1:hover {
+    font-size: 1.5em;
+    background: #06060e;
+    color: #fff;
+    border: 0.15rem solid #ecb320;
+    padding: 0.1em 0.3em;
+    position: relative;
+    z-index: 999;
+    overflow: hidden;
+    border-radius: 7px;
+    text-decoration: none;
+ }
+.gl_podrobnee2 {
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 25px;
+}
+@media all and (max-width: 480px) {
+.foot_erblok1 { display: none; }
+.foot_er {
+background-color: #4c4c4c;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+	z-index: 999;
+	opacity: 0.85;
+}
+.foot_err {
+background-color: #4c4c4c;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    height: 205px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+	z-index: 999;
+	opacity: 0.85;
+}
+.foot_erblok2 {
+    color: #FFFF00;
+    float: left;
+    margin-top: 14px;
+    margin-left: 0;
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 30px;
+	font-size: 20px;
+	height: 3px;
+	display: none;
+}
+.gl_podrobnee2 {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 20px;
+}
+}
+
+
+
+
