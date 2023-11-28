@@ -2551,3 +2551,25 @@ transform: rotate(180deg);
 .copyright a:hover { color:#FF0069; text-decoration: none; }
 .errField { display:none; font-size: 14px; background: #f00; color: #fff; text-align: center; padding: 10px; margin-bottom:10px; }
 .errorMessage {font-size: 15px;background: rgba(255, 0, 0, 0.64);color: #fff;text-align: center;padding: 5px 10px;position: absolute;margin: 10px 0 0; z-index: 999;}
+
+.youtube {
+    background-color: #1d1d1d;
+    max-width: 100%;
+    height: inherit;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.youtube .play {
+    filter: alpha(opacity=80);
+    opacity: .8;
+    height: 77px;
+    left: 50%;
+    margin-left: -38px;
+    margin-top: -38px;
+    position: absolute;
+    top: 50%;
+    width: 77px;
+    background: url(../images/youtube-play-icon.png) no-repeat;
+}
